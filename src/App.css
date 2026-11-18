@@ -1,0 +1,92 @@
+.app {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 24px;
+}
+
+.counter-panel {
+  width: min(100%, 440px);
+  padding: 40px;
+  border: 1px solid #dce3ee;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 18px 50px rgb(25 49 84 / 10%);
+  text-align: center;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #526a91;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.counter-panel h1 {
+  margin: 0;
+  color: #17243b;
+  font-size: 2rem;
+  letter-spacing: -0.04em;
+}
+
+.description {
+  margin: 12px 0 28px;
+  color: #526078;
+}
+
+.count {
+  display: block;
+  margin: 0 0 24px;
+  color: #2364d2;
+  font-size: 4rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.controls button {
+  min-width: 48px;
+  min-height: 48px;
+  border: 0;
+  border-radius: 12px;
+  background: #2364d2;
+  color: white;
+  cursor: pointer;
+  font: inherit;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.controls button:hover {
+  background: #174ca8;
+}
+
+.controls button:focus-visible {
+  outline: 3px solid #91b9ff;
+  outline-offset: 3px;
+}
+
+.controls .reset {
+  padding: 0 16px;
+  background: #edf2fa;
+  color: #243650;
+  font-size: 1rem;
+}
+
+.controls .reset:hover {
+  background: #dce6f5;
+}
+
+.state-note {
+  margin: 22px 0 0;
+  color: #64728a;
+  font-size: 0.875rem;
+}
